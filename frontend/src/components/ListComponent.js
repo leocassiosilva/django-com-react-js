@@ -1,12 +1,13 @@
 import React from 'react';
+import ItemComponent from './ItemComponent';
 
 export  default function ListComponent(){
     return (
        <div>
             <h2>Minha Lista</h2>
             <ul>
-                <li>Item 1</li>
-                <li>Item 1</li>
+                <ItemComponent name={'Meu Item1'}/>
+                <ItemComponent name={'Meu Item2'}/>
             </ul>
        </div>
     );
