@@ -4,7 +4,7 @@ import LoginComponent from './LoginComponent';
 
 
 export default class UserLists extends React.Component{
-    state = { lists: [], loading: true }
+    state = { lists: [], loading: true}
 
     async componentDidMount(){
         const config = {
